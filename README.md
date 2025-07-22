@@ -25,18 +25,18 @@ graph TD
     O --> P[Admin Schedules Consultant-Dora Follow-up Appointment];
     P -- "Eventually transition to" --> Q[Nurse-Led Clinic for Follow-up];
 
-    subgraph ""
+    subgraph "Pre-Call Communication"
         D
         E
     end
 
-    subgraph ""
+    subgraph "Dora Call Execution"
         F
         G
         H
     end
 
-    subgraph ""
+    subgraph "Outcome Management"
         I
         J
         K
