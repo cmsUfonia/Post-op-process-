@@ -4,8 +4,6 @@
 
 **Key Stages of the Process:**
 
-**1. Pre-Call Communication**
-
 ```mermaid
 graph TD
     A[Surgeon Lists Patient for Dora Call on Cerner] --> B{Patient Listed for Cataract Surgery and Routine Follow-up};
