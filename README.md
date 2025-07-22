@@ -12,7 +12,7 @@ graph TD
     B --> C[Bookings Team Schedules Dora Appointment on Cerner];
     C -- "Tuesday 11:30 AM Slot (Multiple Patients)" --> D[Patient Receives Pre-Call Information];
     D -- "Discharge Letter, Posters, Leaflets" --> E[Two Days Before Call: Dora Sends Text with Inbound Call Option];
-    E --> F[One Week Before Call: BI/IT Sends Patient List to Ufonia];
+    E --> F[One Week Before Board Call: BI/IT Sends Patient List to Ufonia];
     F --> G["Dora Conducts Automated Calls (Tuesday 11:30 AM)"];
     G -- "If no answer" --> H[Dora Attempts Second Call];
     H -- "Later on Tuesday" --> I[Ufonia Sends Outcome Spreadsheet to Nurses/Admin];
@@ -22,8 +22,8 @@ graph TD
     L -- "Patient now passes / No concerns" --> M[Nurse Outcomes on Cerner];
     L -- "Patient still has clinical concerns" --> N[Nurse Emails OPD Ophthalmology Inbox with Patient List];
     N --> O["Admin Team (Michelle, Lisa, Remy, Vicky) Monitors Inbox"];
-    O --> P[Admin Schedules Consultant-Led Follow-up Appointment];
-    P -- "Eventually transition to" --> Q[Nurse-Led Clinic for Follow-up];
+    O --> P[Admin Schedules Consultant-Dora Follow-up Appointment];
+P -- "Eventually transition to" --> Q[Nurse-Led Clinic for Follow-up];
 
     subgraph ""
         D
