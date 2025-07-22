@@ -1,4 +1,11 @@
 # Post-op-process-
+
+**This diagram illustrates the Dora Call Process and Outcome Review.**
+
+**Key Stages of the Process:**
+
+**1. Pre-Call Communication**
+
 ```mermaid
 graph TD
     A[Surgeon Lists Patient for Dora Call on Cerner] --> B{Patient Listed for Cataract Surgery and Routine Follow-up};
@@ -18,18 +25,18 @@ graph TD
     O --> P[Admin Schedules Consultant-Led Follow-up Appointment];
     P -- "Eventually transition to" --> Q[Nurse-Led Clinic for Follow-up];
 
-    subgraph "Pre-Call Communication"
+    subgraph ""
         D
         E
     end
 
-    subgraph "Dora Call Execution"
+    subgraph ""
         F
         G
         H
     end
 
-    subgraph "Outcome Management"
+    subgraph ""
         I
         J
         K
