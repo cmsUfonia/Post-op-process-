@@ -14,7 +14,7 @@ graph TD
     J -- "Failed, Incomplete, or DNA'd Call" --> L[Nurse Calls Patient Back];
     L -- "Patient now passes / No concerns" --> M[Nurse Outcomes on Cerner];
     L -- "Patient still has clinical concerns" --> N[Nurse Emails OPD Ophthalmology Inbox with Patient List];
-    N --> O[Admin Team (Michelle, Lisa, Remy, Vicky) Monitors Inbox];
+    N --> O["Admin Team (Michelle, Lisa, Remy, Vicky) Monitors Inbox"];
     O --> P[Admin Schedules Consultant-Led Follow-up Appointment];
     P -- "Eventually transition to" --> Q[Nurse-Led Clinic for Follow-up];
 
