@@ -18,18 +18,20 @@ graph TD
     O --> P[Admin Schedules Consultant-Led Follow-up Appointment];
     P -- "Eventually transition to" --> Q[Nurse-Led Clinic for Follow-up];
 
-    subgraph Pre-Call Communication
+    subgraph " "
         D
         E
     end
+    linkStyle 0 stroke-width:0; style D stroke-width:0px; style E stroke-width:0px;
 
-    subgraph Dora Call Execution
+    subgraph " "
         F
         G
         H
     end
+    linkStyle 0 stroke-width:0; style F stroke-width:0px; style G stroke-width:0px; style H stroke-width:0px;
 
-    subgraph Outcome Management
+    subgraph " "
         I
         J
         K
@@ -40,3 +42,46 @@ graph TD
         P
         Q
     end
+    linkStyle 0 stroke-width:0; style I stroke-width:0px; style J stroke-width:0px; style K stroke-width:0px; style L stroke-width:0px; style M stroke-width:0px; style N stroke-width:0px; style O stroke-width:0px; style P stroke-width:0px; style Q stroke-width:0px;
+
+
+    %% External labels (adjust positioning as needed in the editor)
+    style D fill:#fff,stroke:#fff,stroke-width:0px
+    style E fill:#fff,stroke:#fff,stroke-width:0px
+    style F fill:#fff,stroke:#fff,stroke-width:0px
+    style G fill:#fff,stroke:#fff,stroke-width:0px
+    style H fill:#fff,stroke:#fff,stroke-width:0px
+    style I fill:#fff,stroke:#fff,stroke-width:0px
+    style J fill:#fff,stroke:#fff,stroke-width:0px
+    style K fill:#fff,stroke:#fff,stroke-width:0px
+    style L fill:#fff,stroke:#fff,stroke-width:0px
+    style M fill:#fff,stroke:#fff,stroke-width:0px
+    style N fill:#fff,stroke:#fff,stroke-width:0px
+    style O fill:#fff,stroke:#fff,stroke-width:0px
+    style P fill:#fff,stroke:#fff,stroke-width:0px
+    style Q fill:#fff,stroke:#fff,stroke-width:0px
+
+
+    classDef externalLabel fill:#fff,stroke:#fff,font-weight:bold,text-align:right
+    class R,S,T externalLabel
+
+    R("   **Pre-Call Communication**"):::externalLabel
+    S("   **Dora Call Execution**"):::externalLabel
+    T("   **Outcome Management**"):::externalLabel
+
+    D --> R
+    E --> R
+    F --> S
+    G --> S
+    H --> S
+    I --> T
+    J --> T
+    K --> T
+    L --> T
+    M --> T
+    N --> T
+    O --> T
+    P --> T
+    Q --> T
+
+    linkStyle 25,26,27,28,29,30,31,32,33,34,35,36,37 stroke-width:0px,fill:none,stroke:none;
