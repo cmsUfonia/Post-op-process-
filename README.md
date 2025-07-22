@@ -23,7 +23,7 @@ graph TD
     L -- "Patient still has clinical concerns" --> N[Nurse Emails OPD Ophthalmology Inbox with Patient List];
     N --> O["Admin Team (Michelle, Lisa, Remy, Vicky) Monitors Inbox"];
     O --> P[Admin Schedules Consultant-Dora Follow-up Appointment];
-P -- "Eventually transition to" --> Q[Nurse-Led Clinic for Follow-up];
+    P -- "Eventually transition to" --> Q[Nurse-Led Clinic for Follow-up];
 
     subgraph ""
         D
