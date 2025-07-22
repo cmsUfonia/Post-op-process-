@@ -6,7 +6,7 @@ graph TD
     C -- "Tuesday 11:30 AM Slot (Multiple Patients)" --> D[Patient Receives Pre-Call Information];
     D -- "Discharge Letter, Posters, Leaflets" --> E[Two Days Before Call: Dora Sends Text with Inbound Call Option];
     E --> F[One Week Before Call: BI/IT Sends Patient List to Ufonia];
-    F --> G[Dora Conducts Automated Calls (Tuesday 11:30 AM)];
+    F --> G["Dora Conducts Automated Calls (Tuesday 11:30 AM)"];
     G -- "If no answer" --> H[Dora Attempts Second Call];
     H -- "Later on Tuesday" --> I[Ufonia Sends Outcome Spreadsheet to Nurses/Admin];
     I --> J{Nurses Review Outcomes};
